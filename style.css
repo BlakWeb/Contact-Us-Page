@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #18b69e;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+span{
+    color: #23118a;
+}
+.contact-right{
+    flex-basis: 60%;
+    padding: 40px;
+    background: #23118a;
+    color: #fff;
+}
+h1{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+.contact-left h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #23118a;
+}
+.contact-left h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+ .input-group input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 6px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    color: #23118a;
+    font-weight: 400;
+}
+button{
+   background: #23118a;
+   width: 100px;
+   border: none; 
+   outline: none;
+   height: 40px;
+   font-weight: 400;
+   color: #fff;
+   border-radius: 30px;
+   margin: 20px;
+   box-shadow: 0px 7px 20px 0px rgba(28,0,181,0.3);
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+footer{
+    margin-top: 40%;
+    text-align: center;
+}
+footer p{
+    color: #ccc;
+    font-size: 14px;
+    font-style: italic;
+    outline: none;
+}
+footer i{
+    height: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+    width: 60%;
+}
+.contact-box{
+    display: block;
+}
+tr td:first-child{
+    padding-right: 0;
+    font-size: 8px;
+}
+tr td{
+    font-size: 12px;
+}
+footer i{
+    font-size: 14px;
+}
+.contact-left h3, .contact-right h3{
+    font-size: 13px;
+    text-align: center;
+}
+.container p{
+    font-size: 12px;
+    text-align: center;
+}
+.container h1{
+    text-align: center;
+}
+textarea{
+    height: 60px;
+}
+button{
+    width: 70px;
+}
+    
+label{
+    text-align: center;
+}
+input{
+    font-size: 7px;
+}
+}
+
+    
+}
